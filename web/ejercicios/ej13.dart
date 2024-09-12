@@ -1,9 +1,9 @@
 int factorial(int n) {
-  // Caso base: si n es 0 o 1, el factorial es 1
+  // caso base: si n es 0 o 1, el factorial es 1
   if (n <= 1) {
     return 1;
   }
-  // Llamada recursiva: n * factorial(n-1)
+  // llamada recursiva: n * factorial(n-1)
   return n * factorial(n - 1);
 }
 

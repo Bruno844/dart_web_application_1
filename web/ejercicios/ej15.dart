@@ -2,7 +2,7 @@
 
 
 int busquedaBinaria(List<int> lista, int valor, int inicio, int fin) {
-  // Caso base: si el rango es inválido, el valor no está en la lista
+  // si el rango es inválido, el valor no está en la lista
   if (inicio > fin) {
     return -1; // Indica que el valor no fue encontrado
   }
